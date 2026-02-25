@@ -14,24 +14,34 @@
  */
 
 // ── Example imports (uncomment & rename) ─────────────────────
-// import heroBg          from './assets/images/hero-bg.jpg'
-// import gymEquipImg     from './assets/images/gym-equipment.jpg'
+import heroBg          from '../assets/images/hero-bg.png'
+import gymEquipImg     from '../assets/images/gym-equipment.png'
 // import sportsWearImg   from './assets/images/sportswear.jpg'
-// ... etc.
-
+import cardio_machines from '../assets/images/cardio-machines.png'
+import sportswearImg  from '../assets/images/sportswear.png'
+import sportshoes from '../assets/images/sportshoes.png'
+import yoga_pilates from '../assets/images/yoga.png'
+import combat_sports from '../assets/images/combat.png'
+import interior1 from '../assets/images/interior.png'
+// import interior2 from '../assets/images/interior2.png'
+import exterior from '../assets/images/exterior.png'
+// ============================================================
+//  DATA CONFIGURATION
+// ============================================================
+// Add or edit any data your site needs here, then import it in your components and pages
 // ── HERO ─────────────────────────────────────────────────────
 // Recommended: 1920×1080 dark action photo (gym/sports)
-export const heroImage = ''          // e.g. heroBg
+export const heroImage = heroBg          // e.g. heroBg
 
 // ── CATEGORY CARDS ───────────────────────────────────────────
 // Recommended: 600×400 px each, high-contrast sport photos
 export const CATEGORY_IMAGES = {
-  gym_equipment:    '',   // Dumbbells, barbells, machines
-  cardio_machines:  '',   // Treadmill, cycle, rowing
-  sportswear:       '',   // Jerseys, shorts, compression wear
-  footwear:         '',   // Running, training, court shoes
-  yoga_pilates:     '',   // Mats, blocks, resistance bands
-  combat_sports:    '',   // Boxing, MMA, wrestling
+  gym_equipment:    gymEquipImg,   // Dumbbells, barbells, machines
+  cardio_machines:  cardio_machines,   // Treadmill, cycle, rowing
+  sportswear:       sportswearImg,   // Jerseys, shorts, compression wear
+  footwear:         sportshoes,   // Running, training, court shoes
+  yoga_pilates:     yoga_pilates,   // Mats, blocks, resistance bands
+  combat_sports:    combat_sports,   // Boxing, MMA, wrestling
   outdoor_sports:   '',   // Cricket, football, badminton
   team_sports:      '',   // Basketball, volleyball, hockey
   water_sports:     '',   // Swimming, surfing accessories
@@ -42,9 +52,9 @@ export const CATEGORY_IMAGES = {
 
 // ── SHOP IMAGES ───────────────────────────────────────────────
 export const SHOP_IMAGES = {
-  exterior:  '',   // Shop front photo
-  interior1: '',   // Inside view 1
-  interior2: '',   // Inside view 2
+  exterior:  exterior,   // Shop front photo
+  interior1: interior1,   // Inside view 1
+  // interior2: interior2,   // Inside view 2
 }
 
 // ── CATEGORIES DATA ───────────────────────────────────────────
